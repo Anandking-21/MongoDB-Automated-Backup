@@ -1,0 +1,2 @@
+# Just add it in last line of the crontab editor for automation
+0 2 * * * /home/ubuntu/backup_script.sh >> /home/ubuntu/backup.log 2>&1
